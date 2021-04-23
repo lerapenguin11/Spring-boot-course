@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Dogs implements Animals{
-	
 private List<String> nameDogs = new ArrayList<>();
 private Logger logger = Logger.getLogger(Dogs.class.getName());
 

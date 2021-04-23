@@ -14,6 +14,7 @@ public class ShelterAnimalsConstructor {
 	private Logger logger = Logger.getLogger(ShelterAnimalsConstructor.class.getName());
 	private Animals animal1;
 	private Animals animal2;
+	
 	@Autowired
 	 public ShelterAnimalsConstructor(@Qualifier("cats") Animals animal1,
 			 @Qualifier("dogs") Animals animal2) {

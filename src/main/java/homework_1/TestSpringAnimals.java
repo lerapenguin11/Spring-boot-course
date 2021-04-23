@@ -11,6 +11,7 @@ public class TestSpringAnimals {
         );
 		ShelterAnimalsConstructor shelterAnimalsConstructor = 
 				context.getBean("shelterAnimalsConstructor",ShelterAnimalsConstructor.class);
+		
 		System.out.println(shelterAnimalsConstructor.СhooseAnimal());
 		
 		context.close();

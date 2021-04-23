@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class Config {
+	
 	@Bean
 	public Cats nameCats() {
 		return new Cats();

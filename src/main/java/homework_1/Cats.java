@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 public class Cats implements Animals{
 	private List<String> nameCats = new ArrayList<>();
 	private Logger logger = Logger.getLogger(Cats.class.getName());
+	
 	{
 		nameCats.add("Барсик");
 		nameCats.add("Рыжик");
