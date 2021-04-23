@@ -7,7 +7,7 @@ public class TestSpringStudents {
 	static ApplicationContext context = new AnnotationConfigApplicationContext(
 			DependenceLookUp.class, StudentsPrototype.class, 
 			StudentsRequest.class, StudentsSingleton.class);
-	
+	 
 	public static void main(String[] args) {
 		/* Ответ на вопрос чем отличается Dependency Injection от Dependency LookUp
 		 * 

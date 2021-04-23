@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequestScope
+@RequestScope 
 public class StudentsRequest {
 	private String name;
     

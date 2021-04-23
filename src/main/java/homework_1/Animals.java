@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface Animals {
 	
-	List<String> getNameAnimal();
+	List<String> getNameAnimal(); 
 }

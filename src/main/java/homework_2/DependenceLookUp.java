@@ -8,7 +8,7 @@ public class DependenceLookUp {
 	@Lookup
 	public StudentsPrototype createStudent() {
 		return null;
-	}
+	} 
 	
 	public String university(String name) {
 		StudentsPrototype student = createStudent();
